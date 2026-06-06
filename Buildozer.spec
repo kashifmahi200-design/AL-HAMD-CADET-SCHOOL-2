@@ -1,37 +1,37 @@
 [app]
 
-# App ka naam jo dikhega
-title = AL HAMF CADET SCHOOL 
+# App title
+title = AL HAMD CADET SCHOOL
 
-# Package name (sirf small letters, no space)
+# Package name (sirf small letters + numbers)
 package.name = alhamadcadetschool
 
-# Domain (kuch bhi rakh sakte ho)
+# Domain
 package.domain = org.alhamdschool
 
-# Source code kahan hai
-source.dir = . notifications
+# Source directory (main.py root mein hai)
+source.dir = .
 
-# Kaunsi files include karni hain
+# Include files
 source.include_exts = py,png,jpg,jpeg,kv,atlas,ttf,woff,woff2
 
-# App version
+# Version
 version = 0.1
 
-# Requirements (sabse important)
+# Requirements (Kivy + KivyMD ke liye zaroori)
 requirements = python3,kivy==2.3.0,kivymd,pillow
 
-# Screen orientation
+# Orientation
 orientation = portrait
 
-# Fullscreen ya nahi
+# Fullscreen
 fullscreen = 0
 
-# Permissions (internet chahiye to rakho)
+# Permissions
 android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 
-# App icon (agar icon.png file hai repo mein to uncomment kar do)
-# icon.filename = icon.png
+# App label
+android.application_label = AL HAMD CADET SCHOOL
 
-# App name jo launcher mein dikhega
-android.application_label = AL HAMD CADET SCHOOL 
+# Icon (agar icon.png hai to uncomment kar dena)
+# icon.filename = icon.png
