@@ -10,7 +10,7 @@ package.name = alhamadcadetschool
 package.domain = org.alhamdschool
 
 # Source code kahan hai
-source.dir = .
+source.dir = . notifications
 
 # Kaunsi files include karni hain
 source.include_exts = py,png,jpg,jpeg,kv,atlas,ttf,woff,woff2
@@ -34,4 +34,4 @@ android.permissions = INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE
 # icon.filename = icon.png
 
 # App name jo launcher mein dikhega
-android.application_label = My KivyMD App
+android.application_label = AL HAMD CADET SCHOOL 
